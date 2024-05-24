@@ -1,0 +1,13 @@
+.MobileInterface {
+  * {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .MobileLayout {
+    h2 > span:nth-child(2) > div:first-child {
+      > span:first-child {
+        color: darken(white, 60%);
+        margin-right: 1rem;
+      }
+    }
+  }
+}
