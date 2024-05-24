@@ -4,6 +4,8 @@
   "description": "",
   "main": "src/index.js",
   "scripts": {
+    "storybook": "storybook dev -p 6006",
+    "build:css": "bash scripts/build-css.sh components",
     "watch:css": "bash scripts/watch-css.sh"
   },
   "keywords": [],
