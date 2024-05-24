@@ -1,0 +1,14 @@
+.MobileSelect {
+  grid-template-rows: 8rem auto; }
+  .MobileSelect > section#cardArea {
+    margin: 0.6rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr; }
+    .MobileSelect > section#cardArea > .card {
+      background: rgba(255, 255, 255, 0.6);
+      padding: 0.6rem;
+      margin: 0.4rem;
+      border-radius: 0.4rem; }
+    .MobileSelect > section#cardArea .card-empty {
+      background: rgba(0, 0, 0, 0.05);
+      border: 2px solid rgba(0, 0, 0, 0.2); }
