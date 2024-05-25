@@ -32,7 +32,6 @@ section.MobileLayout {
   }
   > article:last-child {
     margin: 1rem;
-    border: 4px dotted red;
   }
   h1, h2 {
     padding-left: 1rem;
@@ -54,19 +53,20 @@ section.MobileLayout {
     }
   }
   h1 {
-    font-size: 1.4em;
-    background: $pc-dark-10;
+    font-size: 1rem;
+    background: desaturate($pc-light-10, 30%);
     line-height: 3rem;
     border-bottom: 2px inset #010101;
-    color: lighten(black, 40%);
+    color: lighten(black, 30%);
     >span:nth-child(2) {
-      color: darken(white, 20%);
+      letter-spacing: 0.5rem;
+      color: darken($pc, 10%);
       font-weight: bold;
     }
   }
   h2 {
     background: lighten(black, 10%);
-    line-height: 5rem;
+    line-height: 4rem;
     > span:nth-child(2) {
       div { display: inline; }
       font-size: 1.7rem;
