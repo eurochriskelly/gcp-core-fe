@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+console.log('12312')
 import MobileLayout from '../MobileLayout';
 import MobileSelect from '../MobileSelect';
 
@@ -13,18 +14,8 @@ const MobileInterface = ({
   children
 }) => {
   const childrenArray = React.Children.toArray(children);
-  const [ subview, setSubview ] = useState(null);
-  const handle = {
-    select: (index) => {
-      if (index < cardInfo.length) {
-        const { name } = cardInfo[index]
-        setSubview(name)
-      }
-    },
-    back: () => {
-      setSubview(null)
-    }
-  };
+  const subview = 'competitions';
+  const handle = {}
   
   const layoutChildren = childrenArray.length > 0 ? React.Children.toArray(childrenArray[0].props.children) : [];
   const selectChildren = childrenArray.length > 1 ? React.Children.toArray(childrenArray[1].props.children) : [];

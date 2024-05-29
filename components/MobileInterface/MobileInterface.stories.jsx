@@ -46,15 +46,15 @@ export const JustAMobileInterface = {
     ],
     sections: [
       {
-        title: 'Live competitation status',
-        name: 'Competitions',
+        title: 'live competitation status',
+        name: 'competitions',
         action: () => {
           console.log('foo fah')
         }
       },
       {
-        title: 'Field coordination',
-        name: 'Pitches',
+        title: 'field coordination',
+        name: 'pitches',
         action: () => {
           console.log('fee faw')
         }
